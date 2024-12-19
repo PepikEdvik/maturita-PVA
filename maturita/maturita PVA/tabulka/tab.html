@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="cs">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problematika Elektronických Cigaret</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="tab.css">
+</head>
+
+<body>
+     
+    <nav id="navbar">
+        
+        <ul>
+            <a href="/web/web.html"><img src="/tebulka/logo.png" class="png"></a>
+        </ul>
+    </nav>
+
+    <section id="formular" class="py-1">
+
+        <div class="container">
+            <h2 class="m-heading text-center">Máte další / osobní informace, popřípadě zkušenosti s elektronickou cigaretou?</h2>
+
+             <form>
+                <fieldset>
+                  <legend>Sdělte nám je</legend>
+                   <label for="nazev">Jméno</label><br>
+                   <input type="text" id="nazev" name="nazev"><br>
+                   <label for="url">Příjmení</label><br>
+                   <input type="url" id="url" name="url"><br>
+                   <label for="popis">S čím se nám chcete sdělit?</label><br>
+                   <textarea id="popis" name="textarea" rows="3">
+                   </textarea><br>
+                </fieldset>
+                <fieldset>
+                    <legend> Doplnění </legend>
+                    <h2>Vyplňte prosím ještě tyto informace</h2><br>
+                     <input type="radio" id="yes" name="zkouska" value="yes">
+                     <label for="no">Jsem muž</label><br>
+                     <input type="radio" id="no" name="zkouska" value="no">
+                     <label for="no">Jsem žena</label><br><br>
+                     <h2>Máte zkušenosti s Elektronickými cigaretami?</h2>
+                     <input type="checkbox" id="dokumentace" name="dokumentace" value="Dokumentace">
+                     <label for="dokumentace">Kouřím pravidelně</label><br>
+                     <input type="checkbox" id="vykon" name="vykon" value="vykon">
+                     <label for="vykon">Kouřím párkrát přes den</label><br>
+                     <input type="checkbox" id="platba" name="platba" value="platba">
+                     <label for="platba">Nekouřím vůbec</label><br><br>
+                  </fieldset>
+                  <input class="sent" type="submit" value="Odeslat">
+                </form>
+
+                
+
+        </div>
+    </section>
+
+
+</body>
+
+</html>
